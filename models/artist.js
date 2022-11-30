@@ -11,9 +11,25 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
+      Artist.belongsTo(models.User, {
+        foreignKey: 'user_id',
+        as: 'user',
+        onDelete: 'CASCADE',
+        onUpdate: 'CASCADE'
+      })
     }
   }
   Artist.init({
+    userId: {
+      type: Sequelize.INTEGER,
+      allowNull: false,
+      field: 'user_id',
+      onDelete: 'CASCADE',
+      references: {
+        model: 'users',
+        key: 'id'
+      }
+    },
     name: DataTypes.STRING,
     artistId: DataTypes.INTEGER
   }, {
