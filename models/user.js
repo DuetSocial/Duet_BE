@@ -38,7 +38,8 @@ module.exports = (sequelize, DataTypes) => {
     photo: DataTypes.STRING,
     genreInterest: DataTypes.TEXT,
     artistInterest: DataTypes.TEXT,
-    commentId: DataTypes.INTEGER
+    commentId: DataTypes.INTEGER,
+    liked: DataTypes.BOOLEAN
   }, {
     sequelize,
     modelName: 'User',

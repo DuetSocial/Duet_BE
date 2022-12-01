@@ -3,12 +3,12 @@
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up (queryInterface, Sequelize) {
-  await queryInterface.addColumn('comments', 'user_id',{
-    type:Sequelize.INTEGER
+  await queryInterface.addColumn('genres', 'liked',{
+    type:Sequelize.BOOLEAN
   })
   },
 
   async down (queryInterface, Sequelize) {
-    await queryInterface.removeColumn('comments', 'user_id')
+    await queryInterface.removeColumn('genres', 'liked')
   }
 };
