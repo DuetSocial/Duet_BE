@@ -12,6 +12,7 @@ module.exports = {
           photo: "img.png",
           content: "Yo this band is awesome! any other recs?",
           commentId: 1,
+          liked: 3,
           createdAt: new Date(),
           updatedAt: new Date()
         },
@@ -21,6 +22,7 @@ module.exports = {
           photo: "img.png",
           content: "Billies new album is my fav of the year",
           commentId: 2,
+          liked: 7,
           createdAt: new Date(),
           updatedAt: new Date()
         },
@@ -30,6 +32,7 @@ module.exports = {
           photo: "img.png",
           content: "The Weeknd sure can sing",
           commentId: 3,
+          liked: 8,
           createdAt: new Date(),
           updatedAt: new Date()
         }

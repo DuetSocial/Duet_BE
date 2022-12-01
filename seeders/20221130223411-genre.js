@@ -10,6 +10,7 @@ module.exports = {
           user_id: 1,
           name: "Pop",
           genreId: 1,
+          liked: false,
           createdAt: new Date(),
           updatedAt: new Date()
         },
@@ -17,6 +18,7 @@ module.exports = {
           user_id: 2,
           name: "Rap",
           genreId: 2,
+          liked: false,
           createdAt: new Date(),
           updatedAt: new Date()
         },
@@ -24,6 +26,7 @@ module.exports = {
           user_id: 3,
           name: "R&B",
           genreId: 3,
+          liked: true,
           createdAt: new Date(),
           updatedAt: new Date()
         }

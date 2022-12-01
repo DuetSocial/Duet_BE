@@ -31,7 +31,8 @@ module.exports = (sequelize, DataTypes) => {
       }
     },
     name: DataTypes.STRING,
-    artistId: DataTypes.INTEGER
+    artistId: DataTypes.INTEGER,
+    liked: DataTypes.BOOLEAN
   }, {
     sequelize,
     modelName: 'Artist',
