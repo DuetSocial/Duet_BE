@@ -7,25 +7,31 @@ module.exports = {
       "comments",
       [
         {
-          userId: 1,
+          user_id: 1,
           name: "Justin Harris",
           photo: "img.png",
           content: "Yo this band is awesome! any other recs?",
-          commentId: 1
+          commentId: 1,
+          createdAt: new Date(),
+          updatedAt: new Date()
         },
         {
-          userId: 2,
+          user_id: 2,
           name: "Matt Sweeney",
           photo: "img.png",
           content: "Billies new album is my fav of the year",
-          commentId: 2
+          commentId: 2,
+          createdAt: new Date(),
+          updatedAt: new Date()
         },
         {
-          userId: 3,
+          user_id: 3,
           name: "Jack Viana",
           photo: "img.png",
           content: "The Weeknd sure can sing",
-          commentId: 3
+          commentId: 3,
+          createdAt: new Date(),
+          updatedAt: new Date()
         }
       ]
   )},
