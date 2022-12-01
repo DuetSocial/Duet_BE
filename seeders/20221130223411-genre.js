@@ -7,19 +7,25 @@ module.exports = {
       "genres",
       [
         {
-          userId: 1,
+          user_id: 1,
           name: "Pop",
-          genreId: 1
+          genreId: 1,
+          createdAt: new Date(),
+          updatedAt: new Date()
         },
         {
-          userId: 2,
+          user_id: 2,
           name: "Rap",
-          genreId: 2
+          genreId: 2,
+          createdAt: new Date(),
+          updatedAt: new Date()
         },
         {
-          userId: 3,
+          user_id: 3,
           name: "R&B",
-          genreId: 3
+          genreId: 3,
+          createdAt: new Date(),
+          updatedAt: new Date()
         }
       ]
   )},

@@ -14,6 +14,8 @@ module.exports = {
           genreInterest: "Rock",
           artistInterest: "Radiohead",
           commentId: 1,
+          createdAt: new Date(),
+          updatedAt: new Date()
         },
         {
           userId: 2,
@@ -23,6 +25,8 @@ module.exports = {
           genreInterest: "Pop",
           artistInterest: "Billie Eilish",
           commentId: 2,
+          createdAt: new Date(),
+          updatedAt: new Date()
         },
         {
           userId: 3,
@@ -32,6 +36,8 @@ module.exports = {
           genreInterest: "Pop",
           artistInterest: "Ariana Grande",
           commentId: 3,
+          createdAt: new Date(),
+          updatedAt: new Date()
         },
       ],
       {}
