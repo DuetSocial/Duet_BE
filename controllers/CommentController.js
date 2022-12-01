@@ -20,7 +20,7 @@ const addComment = async (req, res) => {
 }
 const updateComment = async (req, res) => {
   try {
-    let commentId = parseInt(req.params.commentId)
+    let commentId = parseInt(req.params.comment_id)
     let updatedComment = await Comment.update(req.body, {
       where: {id: commentId},
       returning: true
@@ -32,7 +32,7 @@ const updateComment = async (req, res) => {
 }
 const deleteComment = async (req, res) => {
   try {
-    let commentId = parseInt(req.params.commentId)
+    let commentId = parseInt(req.params.comment_id)
     await Comment.destroy({where: {id: commentId} })
     res.send({message: `Deleted comment with an id of ${commentId}`})
   } catch (error) {

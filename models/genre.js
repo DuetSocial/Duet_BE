@@ -1,6 +1,6 @@
 'use strict';
 const {
-  Model
+  Model, Sequelize
 } = require('sequelize');
 module.exports = (sequelize, DataTypes) => {
   class Genre extends Model {
@@ -13,7 +13,7 @@ module.exports = (sequelize, DataTypes) => {
       // define association here
       Genre.belongsTo(models.User, {
         foreignKey: 'user_id',
-        as: 'user',
+        as: 'genre',
         onDelete: 'CASCADE',
         onUpdate: 'CASCADE'
       })
