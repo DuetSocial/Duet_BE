@@ -8,14 +8,6 @@ const getAllComments = async (req, res) => {
     throw error
   }
 }
-// const getCommentDetails = async (req, res) => {
-//   try {
-//     const comment = await Comment.findByPk(req.params.comment_id)
-//     res.send(comment)
-//   } catch (error) {
-//     throw error
-//   }
-// }
 const addComment = async (req, res) => {
   try {
     let userId = parseInt(req.params.user_id)
@@ -28,19 +20,19 @@ const addComment = async (req, res) => {
 }
 const updateComment = async (req, res) => {
   try {
-    let commentId = parseInt(req.params.comment_id)
-    let updatedcomment = await Comment.update(req.body, {
+    let commentId = parseInt(req.params.commentId)
+    let updatedComment = await Comment.update(req.body, {
       where: {id: commentId},
       returning: true
     })
-    res.send(updatedcomment)
+    res.send(updatedComment)
   } catch (error) {
     throw error
   }
 }
 const deleteComment = async (req, res) => {
   try {
-    let commentId = parseInt(req.params.comment_id)
+    let commentId = parseInt(req.params.commentId)
     await Comment.destroy({where: {id: commentId} })
     res.send({message: `Deleted comment with an id of ${commentId}`})
   } catch (error) {
@@ -48,7 +40,6 @@ const deleteComment = async (req, res) => {
   }
 }
 module.exports = {
-  getCommentDetails,
   getAllComments,
   addComment,
   updateComment,
