@@ -1,4 +1,4 @@
-const { Post } = require("../models")
+const { Post } = require('../models')
 
 const GetPosts = async (req, res) => {
   try {
@@ -33,7 +33,7 @@ const UpdatePost = async (req, res) => {
 const DeletePost = async (req, res) => {
   try {
     await Post.destroy({ where: { id: req.params.post_id } })
-    res.send({ msg: "Post Deleted", payload: req.params.post_id, status: "Ok" })
+    res.send({ msg: 'Post Deleted', payload: req.params.post_id, status: 'Ok' })
   } catch (error) {
     throw error
   }
@@ -43,5 +43,5 @@ module.exports = {
   GetPosts,
   CreatePost,
   UpdatePost,
-  DeletePost,
+  DeletePost
 }
