@@ -112,7 +112,7 @@ module.exports = {
         user_id: 14,
         name: "Folk",
         genreId: 14,
-        liked: true,
+        liked: false,
         createdAt: new Date(),
         updatedAt: new Date(),
       },
