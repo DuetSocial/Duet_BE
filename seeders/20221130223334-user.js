@@ -16,7 +16,7 @@ module.exports = {
           commentId: 1,
           liked: true,
           createdAt: new Date(),
-          updatedAt: new Date()
+          updatedAt: new Date(),
         },
         {
           userId: 2,
@@ -28,7 +28,7 @@ module.exports = {
           commentId: 2,
           liked: false,
           createdAt: new Date(),
-          updatedAt: new Date()
+          updatedAt: new Date(),
         },
         {
           userId: 3,
@@ -40,7 +40,19 @@ module.exports = {
           commentId: 3,
           liked: false,
           createdAt: new Date(),
-          updatedAt: new Date()
+          updatedAt: new Date(),
+        },
+        {
+          userId: 4,
+          userName: "Jordan Wolter",
+          password: "admin4",
+          photo: "img.jpg",
+          genreInterest: "Pop",
+          artistInterest: "Ariana Grande",
+          commentId: 4,
+          liked: true,
+          createdAt: new Date(),
+          updatedAt: new Date(),
         },
       ],
       {}
