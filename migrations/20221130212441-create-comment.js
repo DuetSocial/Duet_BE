@@ -18,9 +18,6 @@ module.exports = {
       content: {
         type: Sequelize.STRING
       },
-      commentId: {
-        type: Sequelize.INTEGER
-      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE

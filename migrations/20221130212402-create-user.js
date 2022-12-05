@@ -9,13 +9,18 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      userId: {
-        type: Sequelize.INTEGER
+      email: {
+        type: Sequelize.STRING,
+        allowNull: false,
+        unique: true,
+        validate: {
+          isEmail: true
+        }
       },
-      userName: {
+      name: {
         type: Sequelize.STRING
       },
-      password: {
+      passwordDigest: {
         type: Sequelize.STRING
       },
       photo: {
@@ -32,11 +37,13 @@ module.exports = {
       },
       createdAt: {
         allowNull: false,
-        type: Sequelize.DATE
+        type: Sequelize.DATE,
+        defaultValue: new Date()
       },
       updatedAt: {
         allowNull: false,
-        type: Sequelize.DATE
+        type: Sequelize.DATE,
+        defaultValue: new Date()
       }
     });
   },
