@@ -1,11 +1,11 @@
-const { User } = require('../models')
-const middleware = require('../middleware')
+const { User } = require("../models")
+const middleware = require("../middleware")
 
 const Login = async (req, res) => {
   try {
     const user = await User.findOne({
       where: { email: req.body.email },
-      raw: true
+      raw: true,
     })
     if (
       user &&
@@ -13,12 +13,12 @@ const Login = async (req, res) => {
     ) {
       let payload = {
         id: user.id,
-        email: user.email
+        email: user.email,
       }
       let token = middleware.createToken(payload)
       return res.send({ user: payload, token })
     }
-    res.status(401).send({ status: 'Error', msg: 'Unauthorized' })
+    res.status(401).send({ status: "Error", msg: "Unauthorized" })
   } catch (error) {
     throw error
   }
@@ -48,9 +48,9 @@ const UpdatePassword = async (req, res) => {
     ) {
       let passwordDigest = await middleware.hashPassword(newPassword)
       await user.update({ passwordDigest })
-      return res.send({ status: 'Ok', payload: user })
+      return res.send({ status: "Ok", payload: user })
     }
-    res.status(401).send({ status: 'Error', msg: 'Unauthorized' })
+    res.status(401).send({ status: "Error", msg: "Unauthorized" })
   } catch (error) {}
 }
 
@@ -63,5 +63,5 @@ module.exports = {
   Login,
   Register,
   UpdatePassword,
-  CheckSession
+  CheckSession,
 }

@@ -1,7 +1,7 @@
-const bcrypt = require('bcrypt')
-const jwt = require('jsonwebtoken')
+const bcrypt = require("bcrypt")
+const jwt = require("jsonwebtoken")
 const SALT_ROUNDS = 12
-const APP_SECRET = 'supersecretkey'
+const APP_SECRET = "supersecretkey"
 
 const hashPassword = async (password) => {
   // Accepts a password from the request body
@@ -37,12 +37,12 @@ const verifyToken = (req, res, next) => {
     //   Calls the next function if the token is valid
     return next()
   }
-  res.status(401).send({ status: 'Error', msg: 'Unauthorized' })
+  res.status(401).send({ status: "Error", msg: "Unauthorized" })
 }
 
 const stripToken = (req, res, next) => {
   try {
-    const token = req.headers['authorization'].split(' ')[1]
+    const token = req.headers["authorization"].split(" ")[1]
     // Gets the token from the request headers {authorization: Bearer Some-Token}
     // Splits the value of the authorization header
     if (token) {
@@ -51,7 +51,7 @@ const stripToken = (req, res, next) => {
       return next()
     }
   } catch (error) {
-    res.status(401).send({ status: 'Error', msg: 'Unauthorized' })
+    res.status(401).send({ status: "Error", msg: "Unauthorized" })
   }
 }
 
@@ -60,5 +60,5 @@ module.exports = {
   verifyToken,
   createToken,
   comparePassword,
-  hashPassword
+  hashPassword,
 }
