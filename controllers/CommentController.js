@@ -11,7 +11,7 @@ const getAllComments = async (req, res) => {
 const addComment = async (req, res) => {
   try {
     let userId = parseInt(req.params.user_id)
-    let commentBody = {userId, ...req.body}
+    let commentBody = {...req.body}
     let comment = await Comment.create(commentBody)
     res.send(comment)
   } catch (error) {
