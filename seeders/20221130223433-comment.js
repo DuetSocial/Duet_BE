@@ -46,7 +46,7 @@ module.exports = {
         name: "Jordan Wolter",
         photo: "https://imgur.com/fqIK3zq.jpg",
         content: "Can't wait for tomorrow's show!",
-        likes: 8,
+        likes: 28,
         createdAt: new Date(),
         updatedAt: new Date(),
       },
