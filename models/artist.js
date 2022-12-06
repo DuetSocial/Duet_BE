@@ -31,7 +31,8 @@ module.exports = (sequelize, DataTypes) => {
       }
     },
     name: DataTypes.STRING,
-    liked: DataTypes.BOOLEAN
+    liked: DataTypes.BOOLEAN,
+    photo: DataTypes.STRING
   }, {
     sequelize,
     modelName: 'Artist',
