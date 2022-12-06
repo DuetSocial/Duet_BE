@@ -9,7 +9,7 @@ module.exports = {
         {
           name: "Justin Harris",
           email: "jharris@gmail.com",
-          password: "admin1",
+          passwordDigest: "admin1",
           photo: "https://imgur.com/ttaOi6C.jpg",
           genreInterest: "Punk",
           artistInterest: "The Clash",
@@ -20,7 +20,7 @@ module.exports = {
         {
           name: "Matt Sweeney",
           email: "msweeney@gmail.com",
-          password: "admin2",
+          passwordDigest: "admin2",
           photo: "https://imgur.com/UgtSNzz.jpg",
           genreInterest: "Pop",
           artistInterest: "Billie Eilish",
@@ -31,7 +31,7 @@ module.exports = {
         {
           name: "Jack Viana",
           email: "jviana@gmail.com",
-          password: "admin3",
+          passwordDigest: "admin3",
           photo: "https://imgur.com/j5cmgCe.jpg",
           genreInterest: "K-Pop",
           artistInterest: "Twice",
@@ -42,7 +42,7 @@ module.exports = {
         {
           name: "Jordan Wolter",
           email: "email1@email.com",
-          password: "admin4",
+          passwordDigest: "admin4",
           photo: "https://imgur.com/fqIK3zq.jpg",
           genreInterest: "EDM",
           artistInterest: "Kaskade",
@@ -53,7 +53,7 @@ module.exports = {
         {
           name: "Jeremy Taubman",
           email: "email2@email.com",
-          password: "admin5",
+          passwordDigest: "admin5",
           photo: "https://imgur.com/kPeYEzt.jpg",
           genreInterest: "Rock",
           artistInterest: "The Beatles",
@@ -64,7 +64,7 @@ module.exports = {
         {
           name: "Devon Jones",
           email: "email3@email.com",
-          password: "admin6",
+          passwordDigest: "admin6",
           photo: "https://imgur.com/fMvbSbq.jpg",
           genreInterest: "Metal",
           artistInterest: "Metallica",
@@ -75,7 +75,7 @@ module.exports = {
         {
           name: "Tylus Dawkins",
           email: "",
-          password: "admin7",
+          passwordDigest: "admin7",
           photo: "https://i.imgur.com/GsE7PtU.jpg",
           genreInterest: "Rock",
           artistInterest: "Two Door Cinema Club",
@@ -86,7 +86,7 @@ module.exports = {
         {
           name: "Tim Villanueva",
           email: "email4@email.com",
-          password: "admin8",
+          passwordDigest: "admin8",
           photo: "https://i.imgur.com/GsE7PtU.jpg",
           genreInterest: "Jazz",
           artistInterest: "John Coltrane",
@@ -96,7 +96,7 @@ module.exports = {
         },
         {
           name: "Greg Swan",
-          password: "admin9",
+          passwordDigest: "admin9",
           email: "email5@email.com",
           photo: "https://imgur.com/YFwvsGk.jpg",
           genreInterest: "Folk",
@@ -108,7 +108,7 @@ module.exports = {
         {
           name: "Lindsey Lawler",
           email: "email6@email.com",
-          password: "admin10",
+          passwordDigest: "admin10",
           photo: "https://imgur.com/xfjbHdY.jpg",
           genreInterest: "Country",
           artistInterest: "Johnny Cash",
@@ -119,7 +119,7 @@ module.exports = {
         {
           name: "Imdad Hassain",
           email: "email7@email.com",
-          password: "admin11",
+          passwordDigest: "admin11",
           photo: "https://imgur.com/LfImSU3.jpg",
           genreInterest: "EDM",
           artistInterest: "deadmau5",
@@ -130,7 +130,7 @@ module.exports = {
         {
           name: "Andrew Zheng",
           email: "email8@email.com",
-          password: "admin12",
+          passwordDigest: "admin12",
           photo: "https://imgur.com/NNm5vjb.jpg",
           genreInterest: "Metal",
           artistInterest: "Ghost",
@@ -141,7 +141,7 @@ module.exports = {
         {
           name: "Tyler Wade",
           email: "email9@email.com",
-          password: "admin13",
+          passwordDigest: "admin13",
           photo: "https://imgur.com/rXxW0wv.jpg",
           genreInterest: "Rap",
           artistInterest: "Kendrick Lamar",
@@ -152,7 +152,7 @@ module.exports = {
         {
           name: "Brandon Chan",
           email: "email10@email.com",
-          password: "admin15",
+          passwordDigest: "admin15",
           photo: "https://imgur.com/tGQjioL.jpg",
           genreInterest: "Ambient",
           artistInterest: "Brian Eno",
@@ -163,7 +163,7 @@ module.exports = {
         {
           name: "Jeremy Villavla",
           email: "email11@email.com",
-          password: "admin16",
+          passwordDigest: "admin16",
           photo: "https://imgur.com/LsLS8Gv.jpg",
           genreInterest: "Funk",
           artistInterest: "James Brown",
