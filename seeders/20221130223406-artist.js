@@ -7,6 +7,7 @@ module.exports = {
       {
         user_id: 1,
         name: "Drake",
+        photo: "https://imgur.com/U2ZnyXW.jpg",
         liked: false,
         createdAt: new Date(),
         updatedAt: new Date(),
@@ -14,6 +15,7 @@ module.exports = {
       {
         user_id: 2,
         name: "Billie Eilish",
+        photo: "https://imgur.com/p16olWw.jpg",
         liked: false,
         createdAt: new Date(),
         updatedAt: new Date(),
@@ -21,6 +23,7 @@ module.exports = {
       {
         user_id: 3,
         name: "The Weeknd",
+        photo: "https://imgur.com/df1DgKI.jpg",
         liked: true,
         createdAt: new Date(),
         updatedAt: new Date(),
@@ -28,6 +31,7 @@ module.exports = {
       {
         user_id: 4,
         name: "The Beatles",
+        photo: "https://imgur.com/sRZPZCZ.jpg",
         liked: true,
         createdAt: new Date(),
         updatedAt: new Date(),
@@ -35,6 +39,7 @@ module.exports = {
       {
         user_id: 5,
         name: "Metallica",
+        photo: "https://imgur.com/uFOtY6M.jpg",
         liked: true,
         createdAt: new Date(),
         updatedAt: new Date(),
@@ -42,6 +47,7 @@ module.exports = {
       {
         user_id: 6,
         name: "Twice",
+        photo: "https://imgur.com/RixMBBK.jpg",
         liked: true,
         createdAt: new Date(),
         updatedAt: new Date(),
@@ -49,6 +55,7 @@ module.exports = {
       {
         user_id: 7,
         name: "Britney Spears",
+        photo: "https://imgur.com/dKHS2de.jpg",
         liked: true,
         createdAt: new Date(),
         updatedAt: new Date(),
@@ -56,6 +63,7 @@ module.exports = {
       {
         user_id: 8,
         name: "Adele",
+        photo: "https://imgur.com/WAkzYce.jpg",
         liked: true,
         createdAt: new Date(),
         updatedAt: new Date(),
@@ -63,6 +71,7 @@ module.exports = {
       {
         user_id: 9,
         name: "Ghost",
+        photo: "https://imgur.com/VA8AY7Y.jpg",
         liked: true,
         createdAt: new Date(),
         updatedAt: new Date(),
@@ -70,6 +79,7 @@ module.exports = {
       {
         user_id: 10,
         name: "Beethoven",
+        photo: "https://imgur.com/yY7f63p.jpg",
         liked: true,
         createdAt: new Date(),
         updatedAt: new Date(),
@@ -77,6 +87,7 @@ module.exports = {
       {
         user_id: 11,
         name: "The Clash",
+        photo: "https://imgur.com/CVKzWLe.jpg",
         liked: true,
         createdAt: new Date(),
         updatedAt: new Date(),
@@ -84,6 +95,7 @@ module.exports = {
       {
         user_id: 12,
         name: "James Brown",
+        photo: "https://imgur.com/SeATi2E.jpg",
         liked: true,
         createdAt: new Date(),
         updatedAt: new Date(),
@@ -91,6 +103,7 @@ module.exports = {
       {
         user_id: 13,
         name: "Brian Eno",
+        photo: "https://imgur.com/K27QtQI.jpg",
         liked: true,
         createdAt: new Date(),
         updatedAt: new Date(),
@@ -98,6 +111,7 @@ module.exports = {
       {
         user_id: 14,
         name: "deadmau5",
+        photo: "https://imgur.com/xe2PTeG.jpg",
         liked: true,
         createdAt: new Date(),
         updatedAt: new Date(),
@@ -105,6 +119,7 @@ module.exports = {
       {
         user_id: 15,
         name: "Kendrick Lamar",
+        photo: "https://imgur.com/CgM1xU4.jpg",
         liked: true,
         createdAt: new Date(),
         updatedAt: new Date(),
@@ -112,6 +127,7 @@ module.exports = {
       {
         user_id: 16,
         name: "John Coltrane",
+        photo: "https://imgur.com/8YdrZJU.jpg",
         liked: true,
         createdAt: new Date(),
         updatedAt: new Date(),
@@ -119,6 +135,7 @@ module.exports = {
       {
         user_id: 17,
         name: "Black Flag",
+        photo: "https://imgur.com/D1HvAH0.jpg",
         liked: true,
         createdAt: new Date(),
         updatedAt: new Date(),
@@ -126,6 +143,7 @@ module.exports = {
       {
         user_id: 18,
         name: "Boards of Canada",
+        photo: "https://imgur.com/pS67VkG.jpg",
         liked: true,
         createdAt: new Date(),
         updatedAt: new Date(),
@@ -133,6 +151,7 @@ module.exports = {
       {
         user_id: 19,
         name: "Bob Marley",
+        photo: "https://imgur.com/ELEJHMe.jpg",
         liked: true,
         createdAt: new Date(),
         updatedAt: new Date(),
@@ -140,6 +159,7 @@ module.exports = {
       {
         user_id: 20,
         name: "Bad Bunny",
+        photo: "https://imgur.com/cuKrm5C.jpg",
         liked: false,
         createdAt: new Date(),
         updatedAt: new Date(),
@@ -147,6 +167,7 @@ module.exports = {
       {
         user_id: 21,
         name: "BTS",
+        photo: "https://imgur.com/jMbtsFv.jpg",
         liked: false,
         createdAt: new Date(),
         updatedAt: new Date(),
@@ -154,13 +175,15 @@ module.exports = {
       {
         user_id: 22,
         name: "ITZY",
+        photo: "https://imgur.com/5yCxxvx.jpg",
         liked: true,
         createdAt: new Date(),
         updatedAt: new Date(),
       },
       {
         user_id: 23,
-        name: "The Weeknd",
+        name: "David Bowie",
+        photo: "https://imgur.com/uDm3b9o.jpg",
         liked: true,
         createdAt: new Date(),
         updatedAt: new Date(),
@@ -168,6 +191,7 @@ module.exports = {
       {
         user_id: 24,
         name: "John Legend",
+        photo: "https://imgur.com/TlTZuvS.jpg",
         liked: true,
         createdAt: new Date(),
         updatedAt: new Date(),
@@ -175,13 +199,15 @@ module.exports = {
       {
         user_id: 25,
         name: "Alicia Keys",
+        photo: "https://imgur.com/S7iJYjI.jpg",
         liked: false,
         createdAt: new Date(),
         updatedAt: new Date(),
       },
       {
         user_id: 26,
-        name: "The Weeknd",
+        name: "Taylor Swift",
+        photo: "https://imgur.com/pyj97EZ.jpg",
         liked: true,
         createdAt: new Date(),
         updatedAt: new Date(),
@@ -189,6 +215,7 @@ module.exports = {
       {
         user_id: 27,
         name: "TOOL",
+        photo: "https://imgur.com/DuwzVpD.jpg",
         liked: true,
         createdAt: new Date(),
         updatedAt: new Date(),
@@ -196,6 +223,7 @@ module.exports = {
       {
         user_id: 28,
         name: "Johnny Cash",
+        photo: "https://imgur.com/LWvt4W3.jpg",
         liked: false,
         createdAt: new Date(),
         updatedAt: new Date(),
@@ -203,6 +231,7 @@ module.exports = {
       {
         user_id: 29,
         name: "Simon & Garfunkel",
+        photo: "https://imgur.com/03nGEmG.jpg",
         liked: false,
         createdAt: new Date(),
         updatedAt: new Date(),
@@ -210,6 +239,7 @@ module.exports = {
       {
         user_id: 30,
         name: "Black Sabbath",
+        photo: "https://imgur.com/4Jvr4Hu.jpg",
         liked: true,
         createdAt: new Date(),
         updatedAt: new Date(),
@@ -217,6 +247,15 @@ module.exports = {
       {
         user_id: 31,
         name: "Two Door Cinema Club",
+        photo: "https://imgur.com/knTeAZk.jpg",
+        liked: true,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        user_id: 32,
+        name: "Fleetwood Mac",
+        photo: "https://imgur.com/kMlqpeZ.jpg",
         liked: true,
         createdAt: new Date(),
         updatedAt: new Date(),
