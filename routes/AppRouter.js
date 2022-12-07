@@ -1,11 +1,13 @@
-const Router = require('express').Router()
+const Router = require("express").Router()
 
-const CommentRouter = require('./CommentRouter')
+const CommentRouter = require("./CommentRouter")
+const AuthRouter = require("./AuthRouter")
+const ArtistRouter = require("./ArtistRouter")
+const UserRouter = require("./UserRouter")
 
-const AuthRouter = require('./AuthRouter')
-
-Router.use('/comments', CommentRouter)
-
-Router.use('/auth', AuthRouter)
+Router.use("/comments", CommentRouter)
+Router.use("/artists", ArtistRouter)
+Router.use("/users", UserRouter)
+Router.use("/auth", AuthRouter)
 
 module.exports = Router

@@ -1,14 +1,14 @@
 const { User, Comment, Artist, Genre } = require("../models")
 
-const getAllArtists = async (req, res) => {
+const getAllUsers = async (req, res) => {
   try {
-    const artist = await Artist.findAll()
-    res.send(artist)
+    const user = await User.findAll()
+    res.send(user)
   } catch (error) {
     throw error
   }
 }
 
 module.exports = {
-  getAllArtists,
+  getAllUsers,
 }
