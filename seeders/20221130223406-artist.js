@@ -215,7 +215,7 @@ module.exports = {
       {
         user_id: 27,
         name: "Pearl Jam",
-        photo: "https://imgur.com/YuhjovF",
+        photo: "https://imgur.com/YuhjovF.jpg",
         liked: true,
         createdAt: new Date(),
         updatedAt: new Date(),
